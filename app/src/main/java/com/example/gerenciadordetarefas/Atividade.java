@@ -3,9 +3,9 @@ package com.example.gerenciadordetarefas;
 public class Atividade implements Tarefa {
     private String titulo;
     private String descricao;
-    private boolean check;
+    private String check;
 
-    public Atividade(String titulo, String descricao, boolean check) {
+    public Atividade(String titulo, String descricao, String check) {
         this.titulo = titulo;
         this.descricao = descricao;
         this.check = check;
@@ -27,11 +27,11 @@ public class Atividade implements Tarefa {
         this.descricao = descricao;
     }
 
-    public boolean isCheck() {
+    public String getCheck() {
         return check;
     }
 
-    public void setCheck(boolean check) {
+    public void setCheck(String check) {
         this.check = check;
     }
 

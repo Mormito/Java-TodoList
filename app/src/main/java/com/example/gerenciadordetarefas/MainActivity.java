@@ -14,6 +14,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private TextView mensagensTV;
+    private androidx.appcompat.widget.AppCompatButton AdicionarTarefa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +25,10 @@ public class MainActivity extends AppCompatActivity {
         mensagensTV = findViewById(R.id.mensagensTV);
 
         List<Tarefa> listTarefas = new ArrayList<>();
-        listTarefas.add(new Atividade("Trabalho do professor moisés", "Criar um app to-do list", false));
-        listTarefas.add(new Treino("Posterior", "Flexora; Stiff; Nórdico", 1, true));
+        listTarefas.add(new Atividade("Trabalho do professor Moisés", "Criar um app to-do list", "À Fazer"));
+        listTarefas.add(new Atividade("Trabalho do professor Faria", "Exercicio da apostila", "À Fazer"));
+        listTarefas.add(new Atividade("Trabalho do professor Josinei", "Apresentação de trabalho", "À Fazer"));
+        listTarefas.add(new Atividade("Trabalho da professoa Andréia", "Apresentação do trabalho", "À Fazer"));
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
