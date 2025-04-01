@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         listTarefas.add(new Atividade("Trabalho do professor Moisés", "Criar um app to-do list", "À Fazer"));
         listTarefas.add(new Atividade("Trabalho do professor Faria", "Exercicio da apostila", "À Fazer"));
         listTarefas.add(new Atividade("Trabalho do professor Josinei", "Apresentação de trabalho", "À Fazer"));
-        listTarefas.add(new Atividade("Trabalho da professoa Andréia", "Apresentação do trabalho", "À Fazer"));
+        listTarefas.add(new Atividade("Trabalho da professoa Andreia", "Apresentação do trabalho", "À Fazer"));
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

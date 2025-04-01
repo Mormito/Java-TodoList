@@ -4,6 +4,7 @@ public class Atividade implements Tarefa {
     private String titulo;
     private String descricao;
     private String check;
+    //atualizacao de check
 
     public Atividade(String titulo, String descricao, String check) {
         this.titulo = titulo;
